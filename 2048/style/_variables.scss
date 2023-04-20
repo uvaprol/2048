@@ -1,0 +1,28 @@
+// шрифт
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+// цвет
+$color-border: #bbada0;
+$color-cell: #cdc1b4;
+$tile-color2: #eee4da;
+$tile-color4: #ede0c8;
+$tile-color8: #f2b179;
+$tile-color16: #f59563;
+$tile-color32: #f67c5f;
+$tile-color64: #f65e3b;
+$tile-color128: #edcf72;
+$tile-color256: #edcc61;
+$tile-color512: #edc850;
+
+$color-text-white: #f9f6f2;
+$color-text-black: #776e65;
+
+// тень
+
+// анимация
+%anim {
+    transform: scale(0);
+    &:hover {
+        transform: scale(1);
+    }
+}
